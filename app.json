@@ -11,13 +11,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.taraamin.PaddleForOcean",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.taraamin.PaddleForOcean"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77ef6c6c-ed2e-409a-bba3-b2b1db64fdba"
       }
-    }
-
+    },
+    "owner": "taraamin"
   }
 }
